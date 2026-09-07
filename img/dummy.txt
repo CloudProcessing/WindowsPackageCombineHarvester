@@ -1,1 +1,0 @@
-template text file to create img folder
