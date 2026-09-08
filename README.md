@@ -24,7 +24,7 @@ Lists all bundles without deleting anything.
 
 ### You may want to uncomment some of these lines to make switch parameters permanent
 
-![Parameters](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/0346dbff2ea079fc214be032f0cfb5644620ea87/img/260907231023.jpg)
+![Switches](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/0346dbff2ea079fc214be032f0cfb5644620ea87/img/260907231023.jpg)
 
 ***
 
@@ -49,10 +49,7 @@ At each step, you can press `Space`, then press `Enter`, to skip browsing and pr
 Whenever you select packages for removal, the script displays an updated list of the selected objects. No selected package is removed until the final stage, when the complete removal list is displayed one last time and you can either confirm removal or cancel.
 
 > [!WARNING]
-> The script does not remove selected packages until final confirmation.
-> However, removal can affect Windows features, applications, data, recovery
-> behavior, or system stability. Do not remove a package unless you understand
-> its purpose on the specific computer.
+> The script does not remove selected packages until final confirmation. However, removal can affect Windows features, applications, data, recovery behavior, or system stability. Do not remove a package unless you understand its purpose on the specific computer.
 
 If significant packages are removed, you may lose essential data or reach a state where reinstalling Windows is necessary.
 
@@ -67,7 +64,7 @@ For a safe first inspection, run:
 ```
 This lists package bundles and creates a log without attempting removal. It can help you understand how software is organized and how many outdated package versions are installed.
 
-Removing outdated versions only is in most cases harmless operation.
+Removing outdated versions only is in most cases a harmless operation.
 
 If you are unsure about the consequences of the removal, create a full-system backup or disk image before proceeding.
 
@@ -75,7 +72,7 @@ You can also run:
 ```powershell
 .\wpch.ps1 -log -verbose -list
 ```
-Review the output carefully and discuss it with best friends before removing packages.
+Review the output carefully and discuss it with best friends to build the significant packages removal list.
 
 ### You may want to comment out these lines to learn how the script works without allowing removal actions
-![Removal-related lines](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/7df0db0fa3ec494ca0c77ea0fbdf677510671395/img/260907235342.jpg)
+![Removal](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/7df0db0fa3ec494ca0c77ea0fbdf677510671395/img/260907235342.jpg)
