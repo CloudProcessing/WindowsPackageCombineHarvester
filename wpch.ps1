@@ -14,7 +14,7 @@ Clear-Host
 [object]$id = New-Object Security.Principal.WindowsPrincipal($([Security.Principal.WindowsIdentity]::GetCurrent()))
 [object]$admin = [Security.Principal.WindowsBuiltInRole]::Administrator
 [string]$policy = Get-ExecutionPolicy
-$logpath = "$env:PUBLIC\Desktop\$(Get-Date -Format "yyMMddHHmmss")_ap-debloat.log"
+$logpath = "$env:PUBLIC\Desktop\$(Get-Date -Format "yyMMddHHmmss")_wpch.log"
 if ( $id.IsInRole($admin) ) {
     if ( $log ) {
         "Windows Package Combine Harvester initialized $(Get-Date) as $policy" | Tee-Object -FilePath $logpath -Append | Out-String
