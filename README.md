@@ -66,13 +66,13 @@ This lists package bundles and creates a log without attempting removal. It can 
 
 Removing outdated versions only is in most cases a harmless operation.
 
-If you are unsure about the consequences of the removal, create a full-system backup or disk image before proceeding.
+If you are unsure about the consequences of the removal, create a full-system backup or disk image copy before proceeding.
 
 You can also run:
 ```powershell
 .\wpch.ps1 -log -verbose -list
 ```
-Review the output carefully and discuss it with best friends to build the significant packages removal list.
+Review the output carefully and discuss it with best friends of human kind to build the significant packages removal list.
 
 ### You may want to comment out these lines to learn how the script works without allowing removal actions
 ![Removal](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/7df0db0fa3ec494ca0c77ea0fbdf677510671395/img/260907235342.jpg)
