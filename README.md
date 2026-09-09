@@ -78,3 +78,7 @@ Review the output carefully and discuss it with best friends of human kind to bu
 
 ### You may want to comment out these lines to learn how the script works without allowing removal actions
 ![Removal](https://github.com/CloudProcessing/WindowsPackageCombineHarvester/blob/7df0db0fa3ec494ca0c77ea0fbdf677510671395/img/260907235342.jpg)
+
+### 📄 License
+This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for the full text.
+*SPDX-License-Identifier: Apache-2.0*
