@@ -1,3 +1,5 @@
+```PowerShell: 5.1+ | Platform: Win 10 / 11 / Server 2025```
+
 A PowerShell tool for reviewing removable Appx package bundles, actively tested on Windows 10, Windows 11, and supported Windows Server releases through Windows Server 2025. It is written in PowerShell 5.1 for compatibility reasons.
 
 It enumerates removable Appx packages (`Microsoft.Windows.Appx.PackageManager.Commands.AppxPackage`), combining packages with the same name into a bundle together with the corresponding provisioned Appx package (`Microsoft.Dism.Commands.AppxPackageObject`), if one exists.
